@@ -26,3 +26,24 @@ for obj in l:
         obj.talk()
     elif hasattr(obj,'bark'):
         obj.bark()
+
+
+OverLoading
+================
+a.Operator overloading
+b.Method Overloading
+c.Constructor Overloading
+
+************************
+* operator overloading *
+************************
++operaor
+10+20 =30
+'durga'+'soft'=durgasoft
+ 
+ * operator
+ 
+ 10*20=200
+ 'durga'*3=durgadurgadurga
+
+
