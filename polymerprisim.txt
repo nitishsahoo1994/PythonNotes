@@ -1,3 +1,26 @@
 DuckTyping Python
 =====================
 In python we are not going to declare the object type explicitly bcz it is Dynamically typed programming language....Then how can you decidde this object is what type..if it is walks like duck and talks like duck .....It is callled duck type
+
+Ex
+class Duck():
+    def talk(self):
+        print("Quack Quack....")
+
+class Dog():
+    def bark(self):
+        print("Bou Bou....")
+
+class Goat():
+    def talk(self):
+        print("Myaa Myaa....")
+
+duck=Duck()
+dog=Dog()
+goat=Goat()
+l=[dog,duck,goat]
+for obj in l:
+    if hasattr(obj,'talk'):
+        obj.talk()
+    elif hasattr(obj,'bark'):
+        obj.bark()
