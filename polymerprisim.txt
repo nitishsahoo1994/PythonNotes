@@ -1,3 +1,3 @@
 DuckTyping Python
 =====================
-In python we are not going to declare the object type explicitly bcz it is *Dynamically typed* programming language....
+In python we are not going to declare the object type explicitly bcz it is Dynamically typed programming language....Then how can you decidde this object is what type..if it is walks like duck and talks like duck .....It is callled duck type
